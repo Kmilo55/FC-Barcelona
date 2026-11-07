@@ -2,6 +2,8 @@ body {
     background-color: rgb(3, 7, 60);
     color: #ffffff;
     margin: 30px;
+    font-family: Sans-serif;
+    line-height: 1.4;
 }
 
 h1 {
@@ -9,10 +11,8 @@ h1 {
     color: gold;
     background-color: darkred;
     padding: 15px;
-    border-top: 2px solid gold;
-    border-bottom: 2px solid gold;
-    border-right: 2px dashed gold;
-    border-left: 2px dashed gold;
+    border: 3px solid gold;
+    border-radius: 10px;
 }
 
 h2 {
@@ -28,21 +28,13 @@ h3 {
 
 p {
     font-size: 17px;
-    line-height: 1.3;
 }
 
 a {
     color: gold;
 }
 
-img { 
-    width: 295px;
-    display: block;
-    margin: 0 auto;
-    border: 3px solid gold;
-    border-radius: 10px 50px;
-    box-shadow: 10px 10px 5px rgb(44, 44, 44);
-}
+
 
 .kozepre {
     text-align: center;
@@ -53,14 +45,7 @@ img {
     font-style: italic;
 }
 
-#stadion {
-    width: 450px;
-    display: block;
-    float: right;
-    margin-right: 200px;
-    border-radius: 50px 10px;
-    box-shadow: 10px 10px 5px rgb(44, 44, 44);
-}
+
 
 
 table {
@@ -68,6 +53,7 @@ table {
     margin: auto;
     border-collapse: collapse;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 #fejlec {
@@ -99,4 +85,29 @@ td {
     text-align: justify;
     text-indent: 10px;
     margin-bottom: 20px;  
+}
+
+.logo {
+    float: left;
+    margin-right: 20px;
+    width: 200px;
+}
+
+.stadion {
+    float: right;
+    margin-left: 20px;
+    width: 400px;
+}
+
+.csapat {
+    display: block;
+    margin: 0 auto;
+    width: 800px;
+}
+
+
+img {
+    border: 2px solid gold;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgb(44, 43, 43);
 }
